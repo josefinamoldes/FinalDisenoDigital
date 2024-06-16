@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Oswald:wght@200..700&display=swap');
+
+.navbar {
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 30px;
+
+}
+
+.navbar-brand {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3 em;
+}
+
+header img{
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3.68em;
+    color: red;
+}
+
+p, .nav-link  {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+h3, .editar-p {
+    margin: 10px; 
+}
+
+h3, h2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5 em;
+    color: red;
+}
+
+h2 {
+    font-size: 3 em;
+}
+
+.editar-p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8em;
+    margin-bottom: 50px;
+}
+
+.col-md-5 {
+    max-height: 50vh;
+}
+
+img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+footer {
+    background-color:red;
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+}
+
+.custom-red-btn {
+    background-color: rgb(250, 0, 0);
+    color: white;
+}
+
+.custom-red-btn:hover {
+    background-color: rgba(250, 0, 0, 0.8);
+    color: white;
+}
+
+@media(max-width:786px)
+{
+p {
+font-size: 0.7em;
+}
+h3 {
+    font-size: 1em ;
+}
+h1 {
+font-size: 3em;
+}
+}
